@@ -15,8 +15,7 @@ function Card(props) {
         data = SNEAKERS
     }
 
-    // {console.log(data)}
-        return (
+         return (
             <>
                 {data.map((sneaker) => (
                     <div  className="col-6 card mt-2 text-center p-2 m-2 justify-content-between" style={{ width: '15rem' }}>
